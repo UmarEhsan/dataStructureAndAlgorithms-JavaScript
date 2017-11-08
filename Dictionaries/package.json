@@ -1,0 +1,17 @@
+{
+  "name": "dictionaries",
+  "version": "1.0.0",
+  "description": "A dictionary is a data structure that stores data as key-value pairs, such as the way a phone book stores its data as names and phone numbers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "dataStructure",
+    "Algorithms",
+    "dictionaries"
+  ],
+  "author": "Ehsan Umar",
+  "license": "ISC"
+}
