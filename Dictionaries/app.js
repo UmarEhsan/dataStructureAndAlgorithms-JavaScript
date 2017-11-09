@@ -1,4 +1,61 @@
 console.log("Dictionaries");
+var dictionary  = require("./Exercises/Exercise1");
+
+
+//Example 1
+let phoneBookDictionary = new dictionary();
+
+phoneBookDictionary.add("Ehsan" , "03122449350");
+phoneBookDictionary.add("Maaz" , "03122449351");
+phoneBookDictionary.add("Taha" , "03122449352");
+phoneBookDictionary.add("Noman" , "03122449353");
+phoneBookDictionary.add("Furqan" , "03122449354");
+phoneBookDictionary.add("Saqlain" , "03122449355");
+
+var displayOne = phoneBookDictionary.displayOnePhoneNumber("Taha");
+
+console.log(displayOne);
+
+phoneBookDictionary.displayAllPhoneNumbers();
+phoneBookDictionary.removePhoneNumbers("Ehsan");
+phoneBookDictionary.displayAllPhoneNumbers();
+phoneBookDictionary.clearAll();
+
+phoneBookDictionary.displayAllPhoneNumbers();
+phoneBookDictionary.add("Ehsan" , "03122449350");
+phoneBookDictionary.displayAllPhoneNumbers();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function Dictionary()
 {
     this.dataStore = [];
