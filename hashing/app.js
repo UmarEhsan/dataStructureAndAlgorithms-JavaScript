@@ -34,3 +34,11 @@ function simpleHash(data)
         }
         return total % this.table.length;
 }
+
+
+//Inserting element into hash table
+function insert(data)
+{
+    let hashKey = this.simpleHash(data);
+    this.table[hashKey] = data;
+}
